@@ -60,10 +60,10 @@ console.log(house.areas[0].bedroomOne.items);
 
 //5. Find the total number of beds in all rooms
 let count = 0;
-       let areaNames = Object.values(house.areas[0]);
-       areaNames.forEach( areas => {
-              count += areas.items.filter(
-                      function (item){
+let areaNames = Object.values(house.areas[0]);
+areaNames.forEach( areas => {
+        count += areas.items.filter(
+                function (item){
                                if(item== 'bed'){
                                         return item;
                                 }
