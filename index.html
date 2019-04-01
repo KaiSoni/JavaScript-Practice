@@ -76,9 +76,11 @@ house.garage.car.color='blue';
 console.log(house.garage.car.color);
 
 //7. Add a another car to the garage with a honk function
-//8. Make the new car honk [COMBINED]
-house.garage.car2 = {color:'black', wheels:'8', honk2: ()=>{alert("WeepWeep")}};
+house.garage.car2 = {color:'black', wheels:'8', honk: ()=>{alert("WeepWeep")}};
 console.log(house.garage.car2);
+
+//8. Make the new car honk
+house.garage.car2.honk();
 
 
 //9. Change the 'broken chair' in the kitchen to 'new chair'
